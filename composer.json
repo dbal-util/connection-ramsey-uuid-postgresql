@@ -1,16 +1,17 @@
 {
-    "name": "dbal-util/connection-ramsey-uuid-postgresql",
+    "name": "doctrine-dbal-util/connection-ramsey-uuid-postgresql",
     "type": "library",
     "description": "Trait and Methods for Querying PostgreSQL on a DBAL Connection using ramsey/uuid",
     "keywords": ["dbal", "database", "persistence", "queryobject", "uuid", "postgresql"],
-    "homepage": "https://github.com/dbal-util/connection-ramsey-uuid-postgresql",
+    "homepage": "https://github.com/doctrine-dbal-util/connection-ramsey-uuid-postgresql",
     "license": "MIT",
     "authors": [
-        {"name": "Jean-Bernard Addor"}
+        {"name": "Jean-Bernard Addor"},
+        {"name": "Community", "homepage": "https://github.com/doctrine-dbal-util/connection-ramsey-uuid-postgresql"}
     ],
     "require": {
         "php": ">=5.4",
-        "dbal-util/connection": "0.1.x-dev@dev",
+        "doctrine-dbal-util/connection": "0.1.x-dev@dev",
         "ramsey/uuid": "^3.6"
     },
     "require-dev": {
@@ -19,7 +20,7 @@
         "ext-pdo-pqsql":"In order to use PostgreSQL databases."
     },
     "autoload": {
-        "psr-4": { "DbalUtil\\Connection\\Ramsey\\Uuid\\Postgresql\\": "" }
+        "psr-4": { "DoctrineDbalUtil\\Connection\\Ramsey\\Uuid\\Postgresql\\": "" }
     },
     "extra": {
         "branch-alias": {
